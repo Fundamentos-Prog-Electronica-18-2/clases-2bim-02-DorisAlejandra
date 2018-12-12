@@ -6,18 +6,17 @@
 // y un circulo
 
 using namespace std;
-double resultado;
 float  obtenerAreaCuadrado( float a ){
-    resultado=  a*a;
+    double resultado=  a*a;
     return resultado;
 }
 float obtenerAreaRectangulo(float a, float b){
-    resultado= a*b;
+   double resultado= a*b;
     return resultado;
 
 }
 float obtenerAreaCirculo(float a){
-    resultado= (a*a)*(3.1416);
+   double resultado= (a*a)*(3.1416);
     return resultado;
 }
 

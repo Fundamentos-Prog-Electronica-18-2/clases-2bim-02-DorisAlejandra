@@ -2,15 +2,14 @@
 // obtener el cuadrado y el cubo de un numero ingresado por el usuario
 
 using namespace std;
-int cuadrado = 0;
-int resultado ;
+
 
 int  obtenerCuadrado(int a){
-    resultado =a*a;
+    int resultado =a*a;
     return resultado;
 }
 int  obtenerCubo(int b){
-    resultado = b*b*b;
+   int  resultado = b*b*b;
    return resultado;
 }
 
